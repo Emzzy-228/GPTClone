@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tailwind/output.css" />
+</head>
+<body class="bg-slate-700 h-screen w-auto">
+    <nav class="bg-gray-900 md:flex hidden flex-col justify-between p-2 h-screen text-white w[260px] fixed top-0">
+        <div class="space-x-1 flex">
+            <div class="border rounded-md w-full p-1">
+        <b>+ New Chat</b>
+    </div>
+    <div class="border rounded-md p-1 flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#e0e2e5}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+    </div>
+</div>
+    <div class="space-y-6">
+        <div class="w-60 h-0.5 bg-slate-400"></div>
+        <div class="pl-12">Upgrade</div>
+        <div class="flex space-x-5 items-center">
+            <div class="bg-slate-600 text-gray-300 w-7 h-7 items-center justify-center">EO</div>
+        <b>Emmanuel Opara</b>
+    </div>
+    </div>
+    </nav>
+    <section class="md:ml-60 text-white flex items-center flex-col">
+        <div class="bg-gray-900 w-72 h-16 rounded-xl mt-6 items-center flex">
+            <button class="bg-slate-700 rounded-lg w-36 h-14 ml-1 font-bold">GPT-3.5</button>
+            <BUtton class="font-bold p-6">GPT-4</BUtton>
+        </div>
+        <div class="mt-28">
+            <b class="text-2xl text-gray-500">ChatGPT</b>
+        </div>
+
+        <div class="flex items-center text-white flex-col fixed bottom-4">
+        <div class="flex gap-4 mb-3 items-center flex-wrap justify-center">
+        <div class="w-[350px] h-17 rounded-xl bg-transparent border border-gray-600 pl-2">
+            <h2>Design a database schema</h2>
+            <small class="text-gray-400">for an online march store</small>
+         </div>
+        <div class="w-[350px] h-17 rounded-xl bg-transparent border border-gray-600 pl-2">
+            <h2>Tell me a fun fact</h2>
+            <small class="text-gray-400">about the Roman Empire</small>
+        </div>
+            <div class="w-[350px] h-17 rounded-xl bg-transparent border border-gray-600 pl-2">
+                <h2>Compare storytelling techniques</h2>
+                <small class="text-gray-400">in novels and in films</small>
+             </div>
+            <div class="w-[350px] h-17 rounded-xl bg-transparent border border-gray-600 pl-2">
+                <h2>Create a personal webpage for me</h2>
+                <small class="text-gray-400">after asking me three questions</small>
+            </div>
+        </div>
+        <div class="flex justify-center w-[90%]">
+            <input type="text" class="bg-gray-600 rounded-lg w-[100%] outline-none h-12 pl-3" placeholder="Send a message">
+        </div>
+        </div>
+    </section>
+</body>
+</html>
